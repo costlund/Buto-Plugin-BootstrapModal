@@ -1,0 +1,22 @@
+version: 1.0.0
+history:
+  1.0.0:
+    date: '2022-03-09'
+    title: 'First version'
+    description: 'First version. Manifest created.'
+plugin:
+  -
+    name: icons/octicons
+    version: 1.1.1
+sys:
+  -
+    name: mercury
+    version:
+      - 2.52.3
+php:
+  version:
+    - 7.4.21
+author: null
+links: null
+description: ''
+third_part_software: null

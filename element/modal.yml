@@ -1,0 +1,52 @@
+-
+  type: div
+  attribute:
+    id: rs:id
+    class: modal modal-fullscreen
+    tabindex: '-1'
+    role: dialog
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: modal-dialog modal-xl
+        role: document
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: modal-content
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: modal-header
+              innerHTML:
+                -
+                  type: h5
+                  attribute:
+                    class: modal-title
+                  innerHTML: rs:title
+                -
+                  type: button
+                  attribute:
+                    type: button
+                    class: close
+                    data-dismiss: modal
+                    aria-label: Close
+                  innerHTML:
+                    -
+                      type: img
+                      attribute:
+                        src: /plugin/icons/octicons/build/svg/x.svg
+            -
+              type: div
+              attribute:
+                class: modal-body
+                id: modal_body
+              innerHTML: rs:body
+            -
+              type: div
+              attribute:
+                class: modal-footer
+              innerHTML: rs:footer
