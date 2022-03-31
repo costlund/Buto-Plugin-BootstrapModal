@@ -1,5 +1,9 @@
-version: 1.0.0
+version: 1.1.0
 history:
+  1.1.0:
+    date: '2022-03-31'
+    title: 'Size'
+    description: 'Add size param.'
   1.0.0:
     date: '2022-03-09'
     title: 'First version'

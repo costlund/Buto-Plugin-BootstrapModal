@@ -9,7 +9,7 @@
     -
       type: div
       attribute:
-        class: modal-dialog modal-xl
+        class: rs:dialog_class
         role: document
       innerHTML:
         -
