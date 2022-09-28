@@ -17,3 +17,7 @@ data:
       type: div
       innerHTML: Plain text or elements.
 ```
+Close button (Optional where default is true).
+```
+  btn_close: false
+```

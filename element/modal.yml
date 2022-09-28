@@ -2,7 +2,7 @@
   type: div
   attribute:
     id: rs:id
-    class: modal modal-fullscreen
+    class: modal fade modal-fullscreen
     tabindex: '-1'
     role: dialog
   innerHTML:
@@ -29,6 +29,8 @@
                   innerHTML: rs:title
                 -
                   type: button
+                  settings:
+                    enabled: rs:btn_close
                   attribute:
                     type: button
                     class: close

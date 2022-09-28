@@ -1,5 +1,9 @@
-version: 1.1.0
+version: 1.2.0
 history:
+  1.2.0:
+    date: '2022-09-27'
+    title: 'Close button'
+    description: 'Add optional param to hide/show close button.'
   1.1.0:
     date: '2022-03-31'
     title: 'Size'
