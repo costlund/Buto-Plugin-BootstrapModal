@@ -45,7 +45,7 @@
               type: div
               attribute:
                 class: modal-body
-                id: modal_body
+                id: rs:id_body
               innerHTML: rs:body
             -
               type: div
