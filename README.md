@@ -3,21 +3,37 @@ Widget to render a Bootstrap Modal.
 
 ## Widget
 ```
-plugin: bootstrap/modal
-method: modal
+type: widget
 data:
-  id: my_modal
-  title: Task
-  body:
-    -
-      type: div
-      innerHTML: Plain text or elements.
-  footer:
-    -
-      type: div
-      innerHTML: Plain text or elements.
+  plugin: bootstrap/modal
+  method: modal
+  data:
+    id: my_modal
+    title: Task
 ```
-Close button (Optional where default is true).
+Close button (default true).
 ```
-  btn_close: false
+    btn_close: false
+```
+Size (default lg).
+```
+    size: xl
+```
+Icon from plugin icons/octicons.
+```
+    icon: clock
+```
+### Body
+```
+    body:
+      -
+        type: div
+        innerHTML: Plain text or elements.
+```
+### Footer
+```
+    footer:
+      -
+        type: div
+        innerHTML: Plain text or elements.
 ```

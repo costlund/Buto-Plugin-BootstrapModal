@@ -26,7 +26,19 @@
                   type: h5
                   attribute:
                     class: modal-title
-                  innerHTML: rs:title
+                  innerHTML: 
+                    -
+                      type: img
+                      settings:
+                        enabled: rs:icon
+                      attribute:
+                        src: rs:icon_src
+                        style:
+                          width: 20px
+                          margin-top: -4px
+                    -
+                      type: span
+                      innerHTML: rs:title
                 -
                   type: button
                   settings:
@@ -41,6 +53,8 @@
                       type: img
                       attribute:
                         src: /plugin/icons/octicons/build/svg/x.svg
+                        style:
+                          width: 20px
             -
               type: div
               attribute:
@@ -49,6 +63,8 @@
               innerHTML: rs:body
             -
               type: div
+              settings:
+                enabled: rs:footer
               attribute:
                 class: modal-footer
               innerHTML: rs:footer
