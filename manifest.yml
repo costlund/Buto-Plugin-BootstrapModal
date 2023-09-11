@@ -1,12 +1,16 @@
-version: 1.4.0
+version: 1.4.1
 history:
+  1.4.1:
+    date: '2023-09-11'
+    title: Versions
+    description: 'Versions update.'
   1.4.0:
     date: '2022-10-14'
-    title: 'Icon'
+    title: Icon
     description: 'Add icon. Hide footer if no content provided.'
   1.3.0:
     date: '2022-10-06'
-    title: 'Body'
+    title: Body
     description: 'Add body id.'
   1.2.0:
     date: '2022-09-27'
@@ -14,7 +18,7 @@ history:
     description: 'Add optional param to hide/show close button.'
   1.1.0:
     date: '2022-03-31'
-    title: 'Size'
+    title: Size
     description: 'Add size param.'
   1.0.0:
     date: '2022-03-09'
@@ -23,7 +27,7 @@ history:
 plugin:
   -
     name: icons/octicons
-    version: 1.1.1
+    version: 1.2.0
 sys:
   -
     name: mercury
